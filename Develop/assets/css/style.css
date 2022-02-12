@@ -4,10 +4,20 @@
     margin: 0;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 body {
     background-color: #d9dcd6;
 }
 
+/* Header styles start */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +50,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/* header styles end */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Hero styles start */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +61,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* Hero styles end */
 
 .float-left {
     float: left;
@@ -75,6 +79,7 @@ p {
     margin-left: 20px;
 }
 
+/* Benefits styles start */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,26 +138,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Benefits styles end */
 
+/* SEO styles start */
 .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -165,29 +154,53 @@ p {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+/* SEO styles end */
+
+/* Online Reputation Management styles start */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Online Reputation Management styles end */
+
+/* Social Media Marketing styles start */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Social Media Marketing styles start */
 
+/* Footer styles start */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,3 +211,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* Footer styles end */
