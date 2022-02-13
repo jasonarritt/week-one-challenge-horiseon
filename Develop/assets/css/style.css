@@ -1,3 +1,4 @@
+/* General styles start */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -32,6 +33,7 @@ body {
     display: inline-block;
     margin-left: 20px;
 }
+/* General styles end */
 
 /* Header styles start */
 .header {
@@ -212,3 +214,5 @@ body {
     font-size: 20px;
 }
 /* Footer styles end */
+
+/* Just adding a simple note */
